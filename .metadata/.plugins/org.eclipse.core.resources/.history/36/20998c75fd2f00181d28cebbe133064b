@@ -1,0 +1,26 @@
+
+public class HW02_23 {
+
+	public static void main(String[] args) {
+		int first = 1;
+		int second = 5;
+		int k = 1;
+		
+		while(k <= 3)
+		{
+			while(first >= 1) {
+				System.out.print("*");
+				first = first - 1;
+			}
+				System.out.print("*");
+			while(second >= 1) {
+				System.out.print("*");
+			}
+			System.out.prinln(" ");
+			
+			k++;
+		}
+		
+	}
+
+}
