@@ -16,7 +16,7 @@ public class Point {
 		// 지역 변수의 유효범위는 메소드 내부이다.
 		double result;
 		//거리 계산
-		result = Math.sqrt(x*y+ y*y);
+		result = Math.sqrt(x*x+ y*y);
 		// 반환
 		return result;
 	}
