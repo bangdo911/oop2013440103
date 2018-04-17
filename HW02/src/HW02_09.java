@@ -10,6 +10,8 @@ public class HW02_09 {
 		int j = 1;
 		
 		Scanner input = new Scanner(System.in);
+		//Scanner input;
+		//input = new Scanner(System.in);
 		System.out.print("1부터 9 사이의 정수를 입력하시오 : ");
 		i = input.nextInt(); // 키보드에서 숫자 입력
 		
