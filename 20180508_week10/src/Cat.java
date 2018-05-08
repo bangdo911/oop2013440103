@@ -1,5 +1,5 @@
 
-public class Cat extends Animal {
+public class Cat extends Animal{
 	@Override
 	void sing() {
 		System.out.println("A cat bark");
@@ -7,4 +7,5 @@ public class Cat extends Animal {
 	void eat() {
 		System.out.println("A cat eats");
 	}
+	
 }

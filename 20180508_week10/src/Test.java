@@ -10,7 +10,7 @@ public class Test {
 ////		aaa.eat();
 //		aaa.name = bbb;
 //		Animal aaa = new Dog(); // 우변의 클라스가 좌변 클라스의 서브 클래스이변 전혀 문제 없다.
-		Animal aaa = (Animal) new Cat();
+		Dog aaa =  new Dog();
 		aaa.sing();
 //		// Overriding한 메소드를 호출하면 subclass의 메소드가 수행된다.
 //		aaa.sing();
@@ -21,11 +21,14 @@ public class Test {
 		// 2. 모든 서브클라스는 수퍼클라스의 메소드를 override한다.
 		// 3. SuperClass SuperRefVar = new SubClass();
 		// 4. SuperRefVar.overridedMethod() => 객체의 클라스가 구현한 메소드를 실행한다.
-		Scanner ss = new Scanner(System.in);
-		String str = ss.next();
-		if(str.equals("dogs")) aaa = new Dog();
-		else aaa = new Cat();
+//		Scanner ss = new Scanner(System.in);
+//		String str = ss.next();
+//		if(str.equals("dogs")) aaa = new Dog();
+//		else aaa = new Cat();
 		aaa.sing();
+		aaa.eat();
+		aaa.walk();
+		aaa.fetch();
 //		int a; // 형변환
 //		a = (int)3.1;
 //		System.out.println(a);
