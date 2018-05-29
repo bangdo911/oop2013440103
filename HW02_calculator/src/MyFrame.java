@@ -10,14 +10,14 @@ public class MyFrame extends JFrame implements ActionListener {
 	int a=0, b=0;
 	
 	MyFrame() {
-		this.setSize(170,250);
+		this.setSize(180,270);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setTitle("덧셈 계산기");
 		
 		//새로운 컴포넌트를 프레임에 추가
 		this.setLayout(new FlowLayout());//플로우 배치 매니저 사용	
 		
-		tf = new JTextField(13);
+		tf = new JTextField(11);
 		this.add(tf);
 		this.setVisible(true);	
 		
